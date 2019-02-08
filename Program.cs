@@ -4,21 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp5
+namespace ConsoleApp4
 {
     class Program
     {
         static void Main(string[] args)
         {
-            for(int i=5;i>0;i--)
-            {
-                for(int j=0;j<i;j++)
-                {
-                    Console.WriteLine("@");
-                }
-                Console.WriteLine("");
-            }
-            Console.ReadKey()
+            Console.WriteLine("Enter Your name");
+            string name = Console.ReadLine();
+            Console.WriteLine("Enter Country");
+            string country = Console.ReadLine();
+            Console.WriteLine("Hello " + name + " from country " +  country);
+            Console.ReadLine();
+            
         }
     }
 }
